@@ -259,70 +259,6 @@ body.modal-open-noscroll {
   border-radius: 10px;
 }
 
-@-webkit-keyframes cardanimate {
-  0% {
-    -webkit-transform: rotateX(-4.1deg) rotateY(-13.56deg) scale3d(1, 1, 1);
-    transform: rotateX(-4.1deg) rotateY(-13.56deg) scale3d(1, 1, 1);
-    transform-origin: 50% 50% 50%;
-  }
-  20% {
-    -webkit-transform: rotateX(4.69deg) rotateY(-8.14deg) scale3d(1, 1, 1);
-    transform: rotateX(4.69deg) rotateY(-8.14deg) scale3d(1, 1, 1);
-    transform-origin: 50% 50% 50%;
-  }
-  40% {
-    -webkit-transform: rotateX(9.08deg) rotateY(9.77deg) scale3d(1, 1, 1);
-    transform: rotateX(9.08deg) rotateY(9.77deg) scale3d(1, 1, 1);
-    transform-origin: 50% 50% 50%;
-  }
-  60% {
-    -webkit-transform: rotateX(-4.25deg) rotateY(13.36deg) scale3d(1, 1, 1);
-    transform: rotateX(-4.25deg) rotateY(13.36deg) scale3d(1, 1, 1);
-    transform-origin: 50% 50% 50%;
-  }
-  80% {
-    -webkit-transform: rotateX(-11.42deg) rotateY(0.46deg) scale3d(1, 1, 1);
-    transform: rotateX(-11.42deg) rotateY(0.46deg) scale3d(1, 1, 1);
-    transform-origin: 50% 50% 50%;
-  }
-  100% {
-    -webkit-transform: rotateX(-4.1deg) rotateY(-13.56deg) scale3d(1, 1, 1);
-    transform: rotateX(-4.1deg) rotateY(-13.56deg) scale3d(1, 1, 1);
-    transform-origin: 50% 50% 50%;
-  }
-}
-@keyframes cardanimate {
-  0% {
-    -webkit-transform: rotateX(-4.1deg) rotateY(-13.56deg) scale3d(1, 1, 1);
-    transform: rotateX(-4.1deg) rotateY(-13.56deg) scale3d(1, 1, 1);
-    transform-origin: 50% 50% 50%;
-  }
-  20% {
-    -webkit-transform: rotateX(4.69deg) rotateY(-8.14deg) scale3d(1, 1, 1);
-    transform: rotateX(4.69deg) rotateY(-8.14deg) scale3d(1, 1, 1);
-    transform-origin: 50% 50% 50%;
-  }
-  40% {
-    -webkit-transform: rotateX(9.08deg) rotateY(9.77deg) scale3d(1, 1, 1);
-    transform: rotateX(9.08deg) rotateY(9.77deg) scale3d(1, 1, 1);
-    transform-origin: 50% 50% 50%;
-  }
-  60% {
-    -webkit-transform: rotateX(-4.25deg) rotateY(13.36deg) scale3d(1, 1, 1);
-    transform: rotateX(-4.25deg) rotateY(13.36deg) scale3d(1, 1, 1);
-    transform-origin: 50% 50% 50%;
-  }
-  80% {
-    -webkit-transform: rotateX(-11.42deg) rotateY(0.46deg) scale3d(1, 1, 1);
-    transform: rotateX(-11.42deg) rotateY(0.46deg) scale3d(1, 1, 1);
-    transform-origin: 50% 50% 50%;
-  }
-  100% {
-    -webkit-transform: rotateX(-4.1deg) rotateY(-13.56deg) scale3d(1, 1, 1);
-    transform: rotateX(-4.1deg) rotateY(-13.56deg) scale3d(1, 1, 1);
-    transform-origin: 50% 50% 50%;
-  }
-}
 .form-control {
   border: 0;
   color: #9a9a9a;
@@ -641,7 +577,7 @@ select option {
 }
 
 .footer-link, .footer-link--media, .footer-link--app {
-  font-weight: normal;
+  font-weight: 400;
   text-transform: capitalize;
   color: #6c757d;
   opacity: 0.6;
@@ -1480,8 +1416,6 @@ textarea {
   .insof-card-image {
     width: 250px;
     border-radius: 0;
-    -webkit-animation: cardanimate 9s linear infinite;
-    animation: cardanimate 9s linear infinite;
   }
 
   .footer {
@@ -1496,6 +1430,19 @@ textarea {
   .partner__logo {
     text-align: center;
     margin-bottom: 0.9375rem;
+  }
+
+  .contact__text-title {
+    font-size: 1.25rem;
+  }
+
+  .contact__text-info {
+    font-size: 1rem;
+  }
+
+  .contact-icon__image {
+    width: 24px;
+    height: 24px;
   }
 
   .personal-title {
@@ -1553,6 +1500,7 @@ textarea {
 
   .title--footer {
     font-size: 1.125rem;
+    margin-bottom: 0.625rem;
   }
 
   .banner-insof {
