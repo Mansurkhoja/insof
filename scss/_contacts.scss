@@ -1,0 +1,30 @@
+.contact-item {
+    margin-bottom: 2.125rem;
+}
+.contact-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+.contact-icon__image{
+    width: 32px;
+    height: 32px;
+}
+.contact__text-title {
+    font-weight: 400;
+}
+.contact__text-info {
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: $text-color;
+    margin-bottom: 0;
+    &:hover {
+        color: $hover-color;
+    }
+}
+.callback__inner .form-control {
+    border: 1px solid #e9e9e9;
+}
+textarea {
+    resize: none;
+}

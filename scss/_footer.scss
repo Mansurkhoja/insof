@@ -1,0 +1,46 @@
+.footer {
+    padding-top: 80px;
+    padding-bottom: 40px;
+    background-color: $bg-light;
+}
+
+.footer-list {
+    line-height: $line-height-footer;
+}
+
+.footer-link {
+    font-weight: normal;
+    text-transform: capitalize;
+    color: $gray-600;
+    opacity: .6;
+    transition: opacitty .2s ease;
+       &:hover{
+        opacity: 1;
+        color: $black;
+    }
+    &--app {
+        @extend .footer-link;
+        border: 1px solid $black;
+        border-radius: $radius;
+        padding: 8px;
+        color: $black;
+        text-transform: uppercase;
+        
+    }
+    &--media{
+        @extend .footer-link;        
+    }
+}
+.social-media li{
+        margin-right: 15px;
+        &:last-child{
+            margin-right: 0px;
+        }
+}
+.footer-copyright {
+    margin: 30px 40px;
+    padding-top: 20px;
+    border-top: 1px solid $gray-300;
+    font-weight: 400;
+    color: $text-color;
+}

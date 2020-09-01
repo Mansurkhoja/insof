@@ -1,0 +1,63 @@
+.btn {
+    border-width: 2px;
+    border-radius: $radius;
+    &:active,
+    &:focus {
+        outline: none;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+    &.btn-primary {
+        color: $white;
+        font-weight: 500;
+        background-color: rgba($color: $black, $alpha: 1);
+        border-color: rgba($color: $black, $alpha: 1);
+        &:hover,
+        &:focus,
+        &:not(:disabled):not(.disabled):active {
+            background-color: rgba($color: $black, $alpha: 0.94);
+            border-color: rgba($color: $black, $alpha: 0.8);
+        }
+    }
+    &.btn-category {
+        border: 2px solid $black;
+        border-radius: 50px;
+        margin: 0.625rem;
+        padding-bottom: 3px;
+        padding-top: 3px;
+        &.active {
+            color: $white;
+            background-color: $black;
+        }
+    }
+    &.btn-lg{
+        font-size: 1.125rem;
+    }
+}
+
+.btn-link {
+    color: $black;
+    border-color: $black;
+    font-weight: $font-weight-normal;
+    @include hover() {
+        color: $white;
+        text-decoration: none;
+        background-color: $hover-color;
+    }
+    &:focus,
+    &.focus,
+    &:active {
+        text-decoration: none;
+    }
+    &:disabled,
+    &.disabled {
+        color: $btn-link-disabled-color;
+        pointer-events: none;
+    }
+    &--more {
+        @extend.btn-link;
+    }
+}
+.more {
+    text-align: center;
+}

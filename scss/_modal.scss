@@ -1,0 +1,18 @@
+.modal-content{
+    background-color: $bg-light;
+}
+.modal-header{
+    border-bottom: 0;
+}
+.modal-body{
+    
+}
+.modal-footer{
+    border-top: 0;
+}
+.modal-title{
+    margin-left: auto;
+}
+.close:not(:disabled):not(.disabled):focus {
+    outline: none;
+}

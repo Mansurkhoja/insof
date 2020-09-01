@@ -1,0 +1,19 @@
+$font-size-link: 1.125rem;
+$font-size-title: 2.5rem;
+$font-size-subtitle: 1.25rem;
+// $bg-light: #f9f9f9;
+$bg-light: #f3f3f3;
+$text-color: #9a9a9a;
+$font-weight-subtitle: 400;
+$fix-padding: 80px;
+$line-height-footer: 2;
+$brand-blue-color:#3d7ab6 !important;
+// Variables Menu Icon
+$menu-icon-line-height: 4px;
+$menu-icon-line-space: 4px;
+$menu-icon-line-offsetY: $menu-icon-line-height + $menu-icon-line-space;
+$menu-icon-height: (3 * $menu-icon-line-height) + (2 * $menu-icon-line-space);
+$cubic-bezier-in: cubic-bezier(0.3, 1, 0.7, 1);
+$cubic-bezier-out: cubic-bezier(1, 0.7, 1, 0.3);
+// border
+$radius: 10px;

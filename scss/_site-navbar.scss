@@ -1,0 +1,29 @@
+.site-navbar{
+    padding: 1.5rem 0;
+    background-color: $bg-light;
+}
+.logo {
+	display: inline-block;
+}
+.logo-insof {
+	//background-image: url(../img/insof-logo.svg);
+	//background-size: cover;
+	width: 137px;
+	height: 37px;
+	display: block;
+}
+.navbar{
+    padding: 0;
+}
+.link-nav{
+	color: $text-color;
+	font-weight: $font-weight-normal;
+	margin-left: 2.125rem;
+	font-size: $font-size-link;
+	&.active{
+		color: $black;
+	}
+	&:hover{
+		color: $black;
+	}
+}

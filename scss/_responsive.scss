@@ -1,0 +1,286 @@
+/*--------------------------------- Responsive Media Quaries -----------------------------*/
+
+@media only screen and (min-width: 992px) and (max-width: 1299px) {
+    .link-nav {
+        margin-left: 1.5rem;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .title {
+        font-size: 2rem;
+        &--intro {
+            text-align: center;
+        }
+    }
+    .intro {
+        padding: 40px 0;
+    }
+    .intro__text {
+        padding-bottom: 0;
+    }
+    .intro__image {
+        margin: auto;
+        padding: 40px 0;
+    }
+    .banner-insof {
+        width: 350px;
+    }
+    .opportunity__item {
+        width: 100% !important;
+        &:nth-child(even) {
+            padding-left: 0 !important;
+        }
+        &:nth-child(odd) {
+            padding-right: 0 !important;
+        }
+    }
+    .title--mini {
+        font-size: 1rem !important;
+    }
+    .title--footer {
+        font-size: 1.125rem;
+    }
+    .footer-items {
+        margin-top: 20px;
+    }
+    // news
+    .news-img {
+        width: auto;
+        margin-right: 0;
+        margin: 0 auto 20px;
+    }
+    .news-details {
+        font-size: 0.9375rem;
+        .news-link {
+            font-size: 0.9375rem;
+        }
+    }
+    //personal
+    .actions__list {
+        padding: 0.5rem 0;
+    }
+    .actions__list-item {
+        margin: 0 1rem;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .logo-insof {
+        width: 100px;
+        height: auto;
+        padding: 1px;
+    }
+    .section-pd {
+        padding: 60px 0 !important;
+    }
+    .inner-pd {
+        padding-top: 40px;
+    }
+    .icon {
+        width: 85px;
+        height: 85px;
+    }
+    .opportunity__item__icon {
+        width: 20%;
+    }
+    .opportunity__item__text {
+        width: 80%;
+        margin-left: 10px;
+    }
+    .insof-card-image {
+        width: 250px;
+        border-radius: 0;
+        -webkit-animation: cardanimate 9s linear infinite;
+        animation: cardanimate 9s linear infinite;
+    }
+    .footer {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    // news
+    .news-title {
+        font-size: 1.25rem;
+    }
+    //partner
+    .partner__logo {
+        text-align: center;
+        margin-bottom: 0.9375rem;
+    }
+    //personal
+    .personal-title {
+        padding-right: 0;
+    }
+    .card-actions__item {
+        width: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .schedule-item {
+        width: 50%;
+        margin-bottom: 0.875rem;
+        &:nth-last-child(-n + 2) {
+            margin: 0;
+        }
+    }
+    .add-money {
+        margin-bottom: 40px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .add-card {
+        width: 100%;
+    }
+    .add-img-arrow {
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        margin: 0.625rem;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .section-pd {
+        padding: 40px 0 !important;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .title--intro {
+        font-size: 1.625rem;
+    }
+    .title--footer {
+        font-size: 1.125rem;
+    }
+    .banner-insof {
+        width: 200px;
+    }
+    .opportunity__item {
+        text-align: center;
+        -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+    }
+    .opportunity__item__icon {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .opportunity__item__text {
+        width: 100%;
+        margin-left: 0;
+        h4 {
+            font-size: 1.25rem;
+        }
+        p {
+            font-size: 0.875rem;
+        }
+    }
+    .footer-items {
+        text-align: center;
+        .title--footer {
+            text-align: center;
+        }
+        .footer-list {
+            -ms-flex-pack: center !important;
+            -webkit-box-pack: center !important;
+            justify-content: center !important;
+        }
+    }
+    .modal-dialog {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .modal-content {
+        height: auto;
+        min-height: 100%;
+        border-radius: 0;
+    }
+    //partner
+    .partner__name {
+        font-size: 1.875rem;
+    }
+    .partner__text {
+        font-size: $font-size-base;
+    }
+    .partner__address {
+        margin-left: 0 !important;
+        padding-right: 30px;
+        &::after {
+            right: 10px !important;
+        }
+    }
+    .partner__installment {
+        font-size: $font-size-base;
+        margin-left: 12px;
+        padding-right: 30px;
+        &::before {
+            top: 11px;
+            left: -12px;
+            width: 6px;
+        }
+        &::after {
+            width: 18px;
+            height: 18px;
+            right: 12px;
+        }
+    }
+    .partner-add-info-title::after {
+        width: 16px;
+        height: 16px;
+    }
+    .partner-add-info-text {
+        font-size: 0.9375rem;
+    }
+    //personal
+    .personal-full-name {
+        font-size: 1.25rem;
+    }
+    .personal-info__item-desc {
+        font-size: 0.9375rem;
+    }
+    .personal-title {
+        font-size: 0.875rem;
+    }
+    .personal-info__item {
+        padding-right: 0.5rem;
+    }
+    .actions-name-img {
+        width: 24px;
+    }
+    .card-actions__item {
+        font-size: 1rem;
+    }
+    .schedule-item {
+        font-size: 1rem;
+    }
+    .name {
+        width: 100%;
+        padding-right: 0 !important;
+    }
+    .actions__list-item {
+        margin: 0;
+    }
+    .actions__list-link {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 0 0.625rem;
+    }
+    .actions__name {
+        font-size: 0.875rem;
+    }
+    .add-money__form .form-control {
+        font-size: 0.875rem;
+    }
+}

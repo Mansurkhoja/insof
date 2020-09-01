@@ -1,0 +1,192 @@
+.profile-logo {
+    cursor: pointer;
+    max-width: 100%;
+    width: 100%;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    word-break: break-all;
+    max-height: 34px;
+    &:hover {
+        opacity: 0.9;
+    }
+}
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+.profile-name {
+    font-size: 1.125rem;
+    font-weight: 500;
+    vertical-align: middle;
+}
+
+.personal-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+.personal-info__item {
+    width: 50%;
+    padding-right: 1.5rem;
+    &:first-child {
+        width: 100%;
+    }
+}
+.personal-title {
+    font-size: 1rem;
+    font-weight: 400;
+    color: $text-color;
+    padding-right: 0.625rem;
+}
+.personal-info__item-desc {
+    font-weight: 400;
+    font-size: 1.25rem;
+    overflow-wrap: break-word;
+    padding: 0.3rem 0 0.7rem;
+}
+.personal-full-name {
+    font-size: 1.875rem;
+    width: 100%;
+    font-weight: 500;
+}
+//tabs
+.actions {
+    padding-bottom: 80px;
+}
+.actions__list {
+    background-color: $bg-light;
+    padding: 1rem 3rem;
+    border-radius: $radius;
+    min-width: 100%;
+    -ms-flex-pack: center !important;
+    -webkit-box-pack: center !important;
+            justify-content: center !important;
+    margin-bottom: 40px;
+}
+
+.actions__list-item {
+    margin: 0 3rem;
+}
+.actions__list-link {
+    padding: 0.5rem;
+    display: block;
+    color: $text-color;
+    svg{
+        width: 32px;
+        height: 32px;
+        fill: $text-color;
+    }
+}
+.actions__list-link.active {
+    color: $brand-color;
+    svg{
+        fill: $brand-color;
+    }
+}
+//card
+.card-actions {
+    display: -ms-flexbox !important;
+    display: -webkit-box !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
+    -ms-flex-direction: row;
+    -ms-flex-align: center !important;
+    -webkit-box-align: center !important;
+            align-items: center !important;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding: 1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.card-actions__item {
+    width: 33.333333%;
+    text-align: center;
+    padding-right: 15px;
+    word-break: break-all;
+    &:last-child {
+        padding-right: 0;
+    }
+}
+.actions-name-img {
+    width: 30px;
+    height: auto;
+    margin-right: 0.625rem;
+}
+.card-schedule {
+    padding: 0;
+}
+.schedule-item {
+    width: auto;
+    display: -ms-flexbox !important;
+    display: -webkit-box !important;
+    display: flex !important;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    &:last-child {
+        margin-right: 0.625rem;
+        word-break: break-all;
+    }
+}
+.add-money {
+    margin-bottom: 60px;
+}
+.add-card {
+    border: 1px solid $brand-color;
+    border-radius: $radius;
+    padding: 1rem;
+    max-width: 342px;
+    width: 40%;
+}
+.add-money__form {
+    display: -ms-flexbox !important;
+    display: -webkit-box !important;
+    display: flex !important;
+    margin: 1.5rem 0;
+    max-width: 342px;
+    & .form-control {
+        border: 1px solid $text-color;
+        border-radius: $radius;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        margin: 0 10px;
+        &:hover,
+        &:focus {
+            border: 1px solid $brand-color;
+            -webkit-box-shadow: none;
+                    box-shadow: none;
+        }
+    }
+}
+.add-money__submit {
+    text-align: center;
+    .add-money__form {
+        margin: 0 auto;
+        padding-bottom: 2.125rem;
+    }
+}
+.add-money__logo {
+    max-width: 60px;
+    height: auto;
+    margin-left: 10px;
+}
+.add-img-arrow {
+    width: 32px;
+    height: 32px;
+    margin: auto 2rem;
+}

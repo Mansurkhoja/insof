@@ -1,0 +1,53 @@
+.intro {
+    padding-top: 80px;
+    background-color: $bg-light;
+}
+
+.intro__text {
+    margin: auto 0;
+    padding-bottom: $fix-padding;
+}
+
+.intro-title {
+    font-size: $font-size-title;
+    color: $brand-color;
+}
+
+.title {
+    font-size: $font-size-title;
+    color: $brand-color;
+    margin: 0;
+    text-align: center;
+    &--mini {
+        @extend .title;
+        font-weight: normal;
+        font-size: $font-size-base;
+        padding-top: 20px;
+    }
+    &--intro {
+        @extend .title;
+        text-align: left;
+    }
+    &--footer {
+        @extend .title;
+        font-size: $font-size-base;
+        text-align: left;
+        margin-bottom: 1rem;
+        text-transform: uppercase;
+    }
+}
+
+.intro__subtitle {
+    font-size: $font-size-subtitle;
+    font-weight: $font-weight-subtitle;
+    color: $brand-color;
+    margin: 1.5rem 0;
+}
+
+.intro__image {
+    max-width: 500px;
+}
+.move{
+    max-width: 215px;
+    margin: 0 auto;
+}
