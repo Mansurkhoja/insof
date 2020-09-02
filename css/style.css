@@ -620,6 +620,7 @@ select option {
   right: 0;
   top: 0;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   height: 100%;
   z-index: 2;
   width: 249px;
