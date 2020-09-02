@@ -194,11 +194,6 @@ body.modal-open-noscroll {
   max-width: 500px;
 }
 
-.move {
-  max-width: 215px;
-  margin: 0 auto;
-}
-
 /* Opportunities */
 .opportunity__items {
   display: -ms-flexbox !important;
@@ -583,6 +578,10 @@ select option {
   opacity: 0.6;
   transition: opacitty 0.2s ease;
 }
+.footer-link img, .footer-link--media img, .footer-link--app img {
+  width: 30px;
+  height: 22px;
+}
 .footer-link:hover, .footer-link--media:hover, .footer-link--app:hover {
   opacity: 1;
   color: #000;
@@ -594,6 +593,11 @@ select option {
   color: #000;
   text-transform: uppercase;
 }
+.footer-link--media img {
+  width: 25px;
+  height: 25px;
+}
+
 .social-media li {
   margin-right: 15px;
 }
@@ -1335,6 +1339,11 @@ textarea {
   .intro__image {
     margin: auto;
     padding: 40px 0;
+  }
+
+  .move a {
+    max-width: 185px;
+    margin: 0 auto;
   }
 
   .banner-insof {

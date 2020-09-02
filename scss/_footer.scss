@@ -12,9 +12,13 @@
     font-weight: 400;
     text-transform: capitalize;
     color: $gray-600;
-    opacity: .6;
-    transition: opacitty .2s ease;
-       &:hover{
+    opacity: 0.6;
+    transition: opacitty 0.2s ease;
+    & img {
+        width: 30px;
+        height: 22px;
+    }
+    &:hover {
         opacity: 1;
         color: $black;
     }
@@ -25,17 +29,20 @@
         padding: 8px;
         color: $black;
         text-transform: uppercase;
-        
     }
-    &--media{
-        @extend .footer-link;        
+    &--media {
+        @extend .footer-link;
+        & img {
+            width: 25px;
+            height: 25px;
+        }
     }
 }
-.social-media li{
-        margin-right: 15px;
-        &:last-child{
-            margin-right: 0px;
-        }
+.social-media li {
+    margin-right: 15px;
+    &:last-child {
+        margin-right: 0px;
+    }
 }
 .footer-copyright {
     margin: 30px 40px;
