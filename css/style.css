@@ -252,6 +252,7 @@ body.modal-open-noscroll {
 .insof-card-image {
   width: 400px;
   border-radius: 10px;
+  -webkit-user-drag: none;
 }
 
 .form-control {

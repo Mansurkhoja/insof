@@ -1,6 +1,7 @@
 .insof-card-image {
     width: 400px;
     border-radius: $radius;
+    -webkit-user-drag: none;
 }
 .form-control {
     border: 0;
