@@ -4,7 +4,7 @@
     /*------------------
        Slider
     --------------------*/
-    $('.owl-carousel').owlCarousel({
+    $('#team-carousel').owlCarousel({
         loop: false,
         margin: 10,
         nav: true,
@@ -27,8 +27,28 @@
                 items: 5
             }
         }
-    })
+    });
+    $('#review').owlCarousel({
+        loop: true,
+        center: true,
+        nav: false,
+        autoplay: true,
+        autoplayTimeout: 9999,
+        autoplayHoverPause: true,
+        dots: true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            768: {
+                items: 2
+            },
+            991: {
+                items: 3
+            }
+        }
 
+    });
     /*------------------
        Burger
     --------------------*/

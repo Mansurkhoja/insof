@@ -1294,6 +1294,75 @@ textarea {
   margin: auto 2rem;
 }
 
+/* Review */
+.owl-item.center .review__item {
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+
+.owl-item .review__item {
+  opacity: 0.5;
+  transform: scale3d(0.8, 0.8, 1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.review__item {
+  text-align: center;
+}
+.review__item-card {
+  padding: 0.625rem;
+}
+
+.review__item-img {
+  width: 66px !important;
+  height: 66px;
+  object-fit: cover;
+  border-radius: 50px;
+  display: block;
+  margin: 0.9375rem auto;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+.review__item-name {
+  font-weight: 500;
+}
+
+.review__item-text {
+  margin: 0.9375rem 0.625rem;
+}
+.review__item-text p {
+  margin: 0;
+}
+
+.owl-dots {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  margin-top: 0.9375rem;
+}
+.owl-dots .owl-dot {
+  outline: none;
+  vertical-align: middle;
+  display: inline-flex;
+}
+.owl-dots .owl-dot.active span {
+  background-color: #292929;
+  transform: scale(1);
+  transition: transform 0.2s ease;
+}
+.owl-dots .owl-dot span {
+  background: #9a9a9a;
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin: 0.375rem;
+  border-radius: 12px;
+  transform: scale(0.6);
+}
+
 /* Modal */
 .modal-content {
   background-color: #f3f3f3;
@@ -1387,6 +1456,10 @@ textarea {
     font-size: 0.9375rem;
   }
 
+  .review__item-text {
+    font-size: 1rem;
+  }
+
   .actions__list {
     padding: 0.5rem 0;
   }
@@ -1454,6 +1527,14 @@ textarea {
   .contact-icon__image {
     width: 24px;
     height: 24px;
+  }
+
+  .review__item-name {
+    font-size: 1rem;
+  }
+
+  .review__item-text {
+    font-size: 0.9375rem;
   }
 
   .personal-title {
