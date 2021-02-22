@@ -77,7 +77,6 @@
     /*------------------
       Scroll
    --------------------*/
-
     $(document).ready(function () {
         $('body').scrollspy({ target: '.move', offset: 99 });
         $('.move a').on('click', function (event) {
